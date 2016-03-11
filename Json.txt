@@ -1,0 +1,1485 @@
+JSON:{  
+    "results":[  
+        {  
+            "code":0,
+            "message":"found game Game For Roger"
+        }
+    ],
+    "game":{  
+        "status":"playing",
+        "turn":2,
+        "merger":{  
+
+        },
+        "mergeTurn":null,
+        "players":[  
+            {  
+                "name":"1448416565274 bot",
+                "type":"player",
+                "tiles":[  
+
+                ],
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            {  
+                "name":"1448416565905 bot",
+                "type":"player",
+                "tiles":[  
+
+                ],
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            {  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            }
+        ],
+        "people":{  
+            "Cayla Shaver":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "1448416565274 bot":{  
+                "name":"1448416565274 bot",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "1448416565905 bot":{  
+                "name":"1448416565905 bot",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            }
+        },
+        "bag":{  
+            "name":"bag",
+            "type":"bag",
+            "size":87
+        },
+        "board":{  
+            "name":"board",
+            "type":"board",
+            "tiles":{  
+                "2H":"board",
+                "4E":"board",
+                "12C":"board"
+            },
+            "size":3
+        },
+        "owners":{  
+            "1A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "1I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "2A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "2B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "2C":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "2D":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "2E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "2F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "2G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "2H":{  
+                "name":"board",
+                "type":"board",
+                "tiles":{  
+                    "2H":"board",
+                    "4E":"board",
+                    "12C":"board"
+                },
+                "size":3
+            },
+            "2I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "3I":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "4A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "4B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "4C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "4D":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "4E":{  
+                "name":"board",
+                "type":"board",
+                "tiles":{  
+                    "2H":"board",
+                    "4E":"board",
+                    "12C":"board"
+                },
+                "size":3
+            },
+            "4F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "4G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "4H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "4I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "5H":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "5I":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "6A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "6I":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "7A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7C":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "7D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "7I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8A":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "8B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8D":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "8E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "8I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "9A":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "9B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "9C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "9D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "9E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "9F":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "9G":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "9H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "9I":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "10A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "10B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "10C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "10D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "10E":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "5H":"1448416565274 bot",
+                    "5I":"1448416565274 bot",
+                    "10E":"1448416565274 bot",
+                    "9F":"1448416565274 bot",
+                    "7C":"1448416565274 bot",
+                    "2C":"1448416565274 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "10F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "10G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "10H":{  
+                "name":"bag",
+                "type":"player",
+                "tiles":{  
+                    "8D":"1448416565905 bot",
+                    "8A":"1448416565905 bot",
+                    "3I":"1448416565905 bot",
+                    "9G":"1448416565905 bot",
+                    "6I":"1448416565905 bot",
+                    "10H":"1448416565905 bot"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":true,
+                "turn":false
+            },
+            "10I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11A":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "11B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11C":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11D":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "11I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12A":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12B":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12C":{  
+                "name":"board",
+                "type":"board",
+                "tiles":{  
+                    "2H":"board",
+                    "4E":"board",
+                    "12C":"board"
+                },
+                "size":3
+            },
+            "12D":{  
+                "name":"Cayla Shaver",
+                "type":"player",
+                "tiles":{  
+                    "12D":"Cayla Shaver",
+                    "4D":"Cayla Shaver",
+                    "11A":"Cayla Shaver",
+                    "9A":"Cayla Shaver",
+                    "2D":"Cayla Shaver",
+                    "9I":"Cayla Shaver"
+                },
+                "size":6,
+                "money":6000,
+                "shares":{  
+                    "saxson":0,
+                    "zeta":0,
+                    "fusion":0,
+                    "hydra":0,
+                    "america":0,
+                    "quantum":0,
+                    "phoenix":0
+                },
+                "isBot":false,
+                "turn":true
+            },
+            "12E":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12F":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12G":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12H":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            },
+            "12I":{  
+                "name":"bag",
+                "type":"bag",
+                "size":87
+            }
+        },
+        "events":[  
+
+        ],
+        "quarantine":{  
+            "name":"quarantine",
+            "type":"quarantine",
+            "size":0
+        },
+        "companies":{  
+            "saxson":{  
+                "name":"saxson",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":200,
+                "initialPrice":200,
+                "bonus":2000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            },
+            "zeta":{  
+                "name":"zeta",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":200,
+                "initialPrice":200,
+                "bonus":2000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            },
+            "fusion":{  
+                "name":"fusion",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":300,
+                "initialPrice":300,
+                "bonus":3000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            },
+            "hydra":{  
+                "name":"hydra",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":300,
+                "initialPrice":300,
+                "bonus":3000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            },
+            "america":{  
+                "name":"america",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":300,
+                "initialPrice":300,
+                "bonus":3000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            },
+            "quantum":{  
+                "name":"quantum",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":400,
+                "initialPrice":400,
+                "bonus":4000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            },
+            "phoenix":{  
+                "name":"phoenix",
+                "type":"company",
+                "tiles":{  
+
+                },
+                "size":0,
+                "status":"available",
+                "price":400,
+                "initialPrice":400,
+                "bonus":4000,
+                "shares":25,
+                "maj":[  
+
+                ],
+                "min":[  
+
+                ],
+                "config":{  
+                    "cash":6000,
+                    "tradeRatio":2,
+                    "startingTiles":6,
+                    "sharesPerTurn":3,
+                    "rows":12,
+                    "selling":false,
+                    "cols":9,
+                    "safe":11,
+                    "finalShelf":41,
+                    "sharesPerComp":25,
+                    "compnames":[  
+                        "saxson",
+                        "zeta",
+                        "fusion",
+                        "hydra",
+                        "america",
+                        "quantum",
+                        "phoenix"
+                    ],
+                    "prices":[  
+                        200,
+                        200,
+                        300,
+                        300,
+                        300,
+                        400,
+                        400
+                    ],
+                    "enumerable":false
+                }
+            }
+        },
+        "name":"Game For Roger",
+        "defs":{  
+            "cash":6000,
+            "tradeRatio":2,
+            "startingTiles":6,
+            "sharesPerTurn":3,
+            "rows":12,
+            "selling":false,
+            "cols":9,
+            "safe":11,
+            "finalShelf":41,
+            "sharesPerComp":25,
+            "compnames":[  
+                "saxson",
+                "zeta",
+                "fusion",
+                "hydra",
+                "america",
+                "quantum",
+                "phoenix"
+            ],
+            "prices":[  
+                200,
+                200,
+                300,
+                300,
+                300,
+                400,
+                400
+            ],
+            "enumerable":false
+        }
+    },
+    "action":"game.Game For Roger"
+}

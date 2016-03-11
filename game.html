@@ -1,0 +1,293 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<style>
+.container{
+  text-align: center;
+}
+.container td {
+  padding: .5px;
+  background-color: #F8F8FF;
+}
+.gameboard{
+  text-align: center;
+}
+#gameTable, #scoreTable{
+  margin: 0px auto;
+}
+#scoreboard{
+  color: grey;
+}
+.gameboard td {
+  padding: 10px;
+  background-color: #F8F8FF;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+}
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+     <h2 id="testHeadline" style="color: {{testColor}}">Hello Player!</h2>
+      <div class = "scoreboard">
+      <table width = "80%" border = "1" id="scoreTable">
+        <tr id = "scoreboard" >
+          <!-- TODO: want to center this stuff in the boxes need to do it in the CSS file-->
+          <!-- TODO: MUSICA-- I am putting some small adjustments in some of the tags this sort of stuff is what-->
+          <!-- TODO: we need to implement in the CSS file :)-->
+          <td colspan = "2" >Companies</td>
+          <td>Zhang</td>
+          <td>Musica</td>
+          <td>Karpenko</td>
+          <td>Sher</td>
+          <td>Shaver</td>
+          <td>Rahoi</td>
+          <td>Galles</td>
+        </tr>
+        <tr>
+          <td colspan = "2">Cost</td>
+          <td>$0</td>
+          <td>$0</td>
+          <td>$0</td>
+          <td>$0</td>
+          <td>$0</td>
+          <td>$0</td>
+          <td>$0</td>
+        </tr>
+        <tr>
+          <td colspan = "2">Size</td>
+          <td>5</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Players</td>
+          <td>Cash</td>
+          <td colspan = "7">Stocks</td>
+        </tr>
+        <tr>
+          <td>Player Name 1</td>
+          <td>$6000</td>
+          <td>&nbsp;</td>
+          <td>2</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Player Name 2</td>
+          <td>$2500</td>
+          <td>&nbsp;</td>
+          <td>2</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Player Name 3</td>
+          <td>$4000</td>
+          <td>&nbsp;</td>
+          <td>2</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <!--//TODO: message in the middle is what is happening right now not the chat box message form-->
+        <!--//TODO: also need a bag with how many tiles are left to draw from-->
+      </table>
+<br>
+      </div>
+
+      <table class="table">
+        <tr><td>Name</td><td ng-repeat="company in companies">{{company.name}} </td></tr>
+        <tr><td>Initial Price</td><td ng-repeat="company in companies">{{company.initialPrice}}</td></tr>
+        <tr><td>Bonus</td><td ng-repeat="company in companies">{{company.bonus}} </td></tr>
+      </table>
+      <button class="btn btn-primary" id="testButton" ng-click="test()">Click Here To Change The Color Text</button>
+      <button class="btn btn-primary" id="New Game Button" ng-click="makeNewGame()">Make A New Game</button>
+      <small>{{gameServerOutput}}</small>
+      <select ng-model="command">
+        <option>chat</option>
+        <option>new</option>
+        <option>startCompany</option>
+        <option>join</option>
+        <option>decide</option>
+        <option>merge</option>
+        <option>end</option>
+        <option>game</option>
+        <option>play</option>
+        <option>start</option>
+        <option>buy</option>
+        <option>list</option>
+      </select>
+      <h1>{{value}}</h1>
+      <button style="btn btn-default" ng-click="increment()">Increment!</button>
+    </div>
+  </div>
+</div>
+<br>
+<div class = "gameboard">
+  <div class="row">
+    <div class="col-lg-12">
+      <table width = "60%" border = "2" id = "gameTable" >
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+    <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+</div>
+<footer class="footer">
+
+  <div class="container">
+
+      <p>Angular Fullstack v2.1.1 |
+
+        <a href="https://twitter.com/tyhenkel">@tyhenkel</a> |
+
+         <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a></p>
+
+  </div>
+
+</footer>

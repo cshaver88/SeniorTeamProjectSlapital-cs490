@@ -1,0 +1,54 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+  <div class="container">
+    <h1>'Allo, 'Allo!</h1>
+    <p class="lead">Kick-start your next web app with Angular Fullstack</p>
+    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Features:</h1>
+      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings">
+        <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1>Chat Area</h1>
+  <section ng-controller="MainCtrl">
+    <ul>
+      <li ng-repeat="data in collection track by $index">
+        {{ data }}
+      </li>
+    </ul>
+    <button ng-click="chatData.close()">Close</button>
+    <select ng-model="command">
+      <option>chat</option>
+      <option>new</option>
+      <option>startCompany</option>
+      <option>join</option>
+      <option>decide</option>
+      <option>merge</option>
+      <option>end</option>
+      <option>game</option>
+      <option>play</option>
+      <option>start</option>
+      <option>buy</option>
+      <option>list</option>
+    </select>
+    <input type="text" ng-model="data">
+    <button ng-click="sendToServer()">Send To Server</button>
+  </section>
+</div>
+<footer class="footer">
+  <div class="container">
+      <p>Angular Fullstack v2.1.1 |
+        <a href="https://twitter.com/tyhenkel">@tyhenkel</a> |
+         <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a></p>
+  </div>
+</footer>
